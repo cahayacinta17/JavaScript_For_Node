@@ -4,9 +4,11 @@ class user {
     }
 
     sayHi(){
-        alert("Hallo " , this.name)
+        console.log("Hallo " , this.name)
     }
 }
 
-let user = new user("ripal rusdiansyah");
-user.sayHi()
+let User = new user("ripal rusdiansyah");
+let person = new user("gobul")
+User.sayHi()
+person.sayHi()
