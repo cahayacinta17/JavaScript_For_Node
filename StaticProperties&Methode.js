@@ -31,6 +31,4 @@ class User {
     console.log(this.name)
   }
 }
-
-- STAT
 */
